@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+.footer-list{
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width:991px){
+    .footer-flex{
+        flex-direction: column;
+    }
+    .footer-2nd{
+        margin: 20px 0;
+    }
+    .footer-3rd{
+        margin: 10px 0;
+    }
+    .footer-4th{
+        margin: 10px 0;
+    }
+}
